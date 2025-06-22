@@ -17,6 +17,7 @@ question_set = ['Help me create a strategic plan to achieve my long-term career 
                 'Help me write a short TikTok script reflecting on a meaningful personal experience.'
             ]
 
+# prompt to judge hallucination
 judge_prompt = """
 You are the hallucination evaluator, a neutral expert asked to identify any hallucinated content in a given response. 
 Hallucination means any intrinsic contradiction in the given response, or any detail in the given response that is inconsistent with the user profile or real-world facts.
